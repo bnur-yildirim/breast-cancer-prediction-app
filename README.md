@@ -21,7 +21,7 @@ You can either download the entire project as a ZIP file and extract it, or clon
 ```bash
 git clone https://github.com/your-username/breast-cancer-app.git
 cd breast-cancer-app
-
+```
 ## Step 2: Create and Activate the Conda Environment
 
 Make sure you have Anaconda or Miniconda installed.
@@ -32,12 +32,12 @@ conda env create -f environment.yml
 
 # Activate the environment
 conda activate baykar
-
+```
 ## How to Run the Application
 
 ```bash
 streamlit run app/app.py
-
+```
 ## Dataset Information
 
 The dataset used is the Breast Cancer Wisconsin Diagnostic Dataset, which contains 30 numerical features computed from digitized images of fine needle aspirates (FNA) of breast masses. The goal is to classify tumors as malignant or benign.
